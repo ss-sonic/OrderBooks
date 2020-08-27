@@ -187,8 +187,6 @@ class SymbolOrderBook {
    * @public dump orderbook state to console
    */
   print() {
-    console.log(`---------- ${this.symbol} ask:bid ${this.getBestAsk()}:${this.getBestBid()} & spread: ${this.getSpreadPercent().toFixed(5)}%`);
-    console.table(this.book);
     return this;
   }
 

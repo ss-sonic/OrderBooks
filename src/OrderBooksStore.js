@@ -36,7 +36,6 @@ class OrderBooksStore {
    * @returns {OrderBook} that handled this event
    */
   handleSnapshot(symbol, data, timestamp) {
-    this.traceLog && console.log('handleSnapshot ', symbol);
     return this.getBook(symbol).handleSnapshot(data, timestamp);
   }
 
@@ -51,7 +50,6 @@ class OrderBooksStore {
    * @returns {OrderBook} that handled this event
    */
   handleDelta(symbol, deleteLevels, updateLevels, insertLevels, timestamp) {
-    this.traceLog && console.log('handleDelta ', symbol, timestamp);
     return this.getBook(symbol).handleDelta(
       deleteLevels,
       updateLevels,

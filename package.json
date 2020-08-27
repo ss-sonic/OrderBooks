@@ -1,5 +1,5 @@
 {
-  "name": "orderbooks",
+  "name": "@ss-sonic/orderbooks",
   "version": "1.0.4",
   "description": "Minimal state stores and handlers for caching multiple exchange:symbol orderbook states in memory",
   "main": "src/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tiagosiebler/OrderBooks.git"
+    "url": "git+https://github.com/ss-sonic/OrderBooks.git"
   },
   "keywords": [
     "orderbook",
@@ -22,10 +22,10 @@
     "bitmex",
     "node"
   ],
-  "author": "Tiago Siebler",
+  "author": "SS Sonic",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tiagosiebler/OrderBooks/issues"
+    "url": "https://github.com/ss-sonic/OrderBooks/issues"
   },
-  "homepage": "https://github.com/tiagosiebler/OrderBooks#readme"
+  "homepage": "https://github.com/ss-sonic/OrderBooks#readme"
 }
